@@ -1,0 +1,52 @@
+#!/bin/sh
+
+clear
+
+echo "\n MAIN -4 START \n "
+
+./main -4
+
+echo "\n MAIN -4 ENDED \n"
+
+read enter
+
+echo "\n MAIN 0 START \n"
+
+./main 0
+
+echo "\n MAIN 0 ENDED \n"
+
+read enter
+
+echo "\n MAIN 1 SART \n"
+
+./main 1
+
+echo "\n MAIN 1 ENDED \n"
+
+read enter
+
+echo "\n MAIN 2 START \n"
+
+./main 2
+
+echo "\n MAIN 2 ENDED \n"
+
+read enter
+
+echo "\n MAIN 7 SART \n"
+
+./main 7 
+
+echo "\n MAIN 7 ENDED \n"
+
+read enter
+
+echo "\n MAIN 50 START \n"
+
+./main 50
+
+echo "\n MAIN 50 ENDED \n "
+
+read enter
+
